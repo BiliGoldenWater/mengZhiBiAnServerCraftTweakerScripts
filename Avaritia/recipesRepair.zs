@@ -43,8 +43,6 @@ recipes.addShapeless(<avaritia:cosmic_meatballs>,
 [<minecraft:spawn_egg>.withTag({display: {Name: "寰宇肉丸 - 材料1"}, EntityTag: {id: "avaritia:cosmic_meatballs-1"}}),
 <minecraft:spawn_egg>.withTag({display: {Name: "寰宇肉丸 - 材料2"}, EntityTag: {id: "avaritia:cosmic_meatballs-2"}})]);
 
-
-
 #无尽催化剂
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 
@@ -61,8 +59,5 @@ recipes.addShapeless(<avaritia:resource:5>,
 [<minecraft:spawn_egg>.withTag({display: {Name: "无尽催化剂 - 材料1"}, EntityTag: {id: "avaritia:resource:5-1"}}),
 <minecraft:spawn_egg>.withTag({display: {Name: "无尽催化剂 - 材料2"}, EntityTag: {id: "avaritia:resource:5-2"}}),
 <minecraft:spawn_egg>.withTag({display: {Name: "无尽催化剂 - 材料3"}, EntityTag: {id: "avaritia:resource:5-3"}})]);
-
-
-
 
 print("Initialized Avaritia-recipesRepair");
