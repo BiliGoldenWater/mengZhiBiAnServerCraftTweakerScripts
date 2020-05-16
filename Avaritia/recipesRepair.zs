@@ -12,20 +12,21 @@
 #mods.avaritia.ExtremeCrafting.remove(output);
 
 #/minecraft:give @p spawn_egg 1 0 {display:{Name:"超级煲 - 材料1"},EntityTag:{id:"avaritia:ultimate_stew-1"}}
+#/give @p spawn_egg 1 0 {display:{Name:"超级煲 - 材料1"},EntityTag:{id:"avaritia:ultimate_stew-1"}}
 
 print("Initializing Avaritia-recipesRepair");
 
 #超级煲
 mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
 
-recipes.addShapeless(<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}}),
+recipes.addShapeless(<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}}),
 [<avaritia:resource:2>,<minecraft:wheat>,<ore:cropCarrot>,<minecraft:beetroot>,<ore:cropPotato>,<ore:cropMelon>,<minecraft:pumpkin>,<minecraft:cactus>,<minecraft:red_mushroom>]);
 
 recipes.addShapeless(<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料2"}, EntityTag: {id: "avaritia:ultimate_stew-2"}}),
 [<ore:cropMushroomBrown>,<minecraft:nether_wart>]);
 
 recipes.addShapeless(<avaritia:ultimate_stew>,
-[<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}},<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料2"}, EntityTag: {id: "avaritia:ultimate_stew-2"}}]);
+[<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}}),<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料2"}, EntityTag: {id: "avaritia:ultimate_stew-2"}})]);
 
 #寰宇肉丸
 mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
