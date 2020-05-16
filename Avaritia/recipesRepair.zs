@@ -11,24 +11,26 @@
 #删除:
 #mods.avaritia.ExtremeCrafting.remove(output);
 
-#超级煲
-mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>):
+#/minecraft:give @p spawn_egg 1 0 {display:{Name:"超级煲 - 材料1"},EntityTag:{id:"avaritia:ultimate_stew-1"}}
 
-mods.avaritia.ExtremeCrafting.addShaped(<avaritia:ultimate_stew>, [
-    [<avaritia:resource:2>  ,<minecraft:wheat>      ,<ore:cropCarrot>,<minecraft:beetroot>,<ore:cropPotato>,<ore:cropMelon>,<minecraft:pumpkin>,<minecraft:cactus>,<minecraft:red_mushroom>],
-    [<ore:cropMushroomBrown>,<minecraft:nether_wart>,null            ,null                ,null            ,null           ,null               ,null              ,null                    ],
-    [null                   ,null                   ,null            ,null                ,null            ,null           ,null               ,null              ,null                    ],
-    [null                   ,null                   ,null            ,null                ,null            ,null           ,null               ,null              ,null                    ],
-    [null                   ,null                   ,null            ,null                ,null            ,null           ,null               ,null              ,null                    ],
-    [null                   ,null                   ,null            ,null                ,null            ,null           ,null               ,null              ,null                    ],
-    [null                   ,null                   ,null            ,null                ,null            ,null           ,null               ,null              ,null                    ],
-    [null                   ,null                   ,null            ,null                ,null            ,null           ,null               ,null              ,null                    ],
-    [null                   ,null                   ,null            ,null                ,null            ,null           ,null               ,null              ,null                    ]]);
+print("Initializing Avaritia-recipesRepair");
+
+#超级煲
+mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
+
+recipes.addShapeless(<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}}),
+[<avaritia:resource:2>,<minecraft:wheat>,<ore:cropCarrot>,<minecraft:beetroot>,<ore:cropPotato>,<ore:cropMelon>,<minecraft:pumpkin>,<minecraft:cactus>,<minecraft:red_mushroom>]);
+
+recipes.addShapeless(<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料2"}, EntityTag: {id: "avaritia:ultimate_stew-2"}}),
+[<ore:cropMushroomBrown>,<minecraft:nether_wart>]);
+
+recipes.addShapeless(<avaritia:ultimate_stew>,
+[<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}},<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲 - 材料2"}, EntityTag: {id: "avaritia:ultimate_stew-2"}}]);
 
 #寰宇肉丸
-mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>):
+mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
 
-mods.avaritia.ExtremeCrafting.addShaped(<avaritia:ultimate_stew>, [
+mods.avaritia.ExtremeCrafting.addShaped(<avaritia:cosmic_meatballs>, [
     [<avaritia:resource:2>,<minecraft:beef>,<minecraft:beef>,<minecraft:chicken>,<minecraft:chicken>,<minecraft:porkchop>,<minecraft:porkchop>,<minecraft:rabbit>,<minecraft:rabbit>],
     [<minecraft:fish>     ,<minecraft:fish>,null            ,null               ,null               ,null                ,null                ,null              ,null              ],
     [null                 ,null            ,null            ,null               ,null               ,null                ,null                ,null              ,null              ],
@@ -52,3 +54,5 @@ mods.avaritia.ExtremeCrafting.addShaped(<avaritia:resource:5>, [
     [null                    ,null                    ,null                    ,null                               ,null                    ,null                     ,null                       ,null                    ,null                    ],
     [null                    ,null                    ,null                    ,null                               ,null                    ,null                     ,null                       ,null                    ,null                    ],
     [null                    ,null                    ,null                    ,null                               ,null                    ,null                     ,null                       ,null                    ,null                    ]]);
+
+print("Initialized Avaritia-recipesRepair");
