@@ -19,7 +19,7 @@
 print("Initializing Avaritia-recipesRepair");
 
 #超级煲
-mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
+#mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
 
 recipes.addShapeless(<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}}),
 [<avaritia:resource:2>,<minecraft:wheat>,<ore:cropCarrot>,<minecraft:beetroot>,<ore:cropPotato>,<ore:cropMelon>,<minecraft:pumpkin>,<minecraft:cactus>,<minecraft:red_mushroom>]);
@@ -28,10 +28,11 @@ recipes.addShapeless(<minecraft:spawn_egg:0>.withTag({display: {Name: "超级煲
 [<ore:cropMushroomBrown>,<minecraft:nether_wart>]);
 
 recipes.addShapeless(<avaritia:ultimate_stew>,
-[<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}}),<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料2"}, EntityTag: {id: "avaritia:ultimate_stew-2"}})]);
+[<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料1"}, EntityTag: {id: "avaritia:ultimate_stew-1"}}),
+<minecraft:spawn_egg>.withTag({display: {Name: "超级煲 - 材料2"}, EntityTag: {id: "avaritia:ultimate_stew-2"}})]);
 
 #寰宇肉丸
-mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
+#mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
 
 recipes.addShapeless(<minecraft:spawn_egg>.withTag({display: {Name: "寰宇肉丸 - 材料1"}, EntityTag: {id: "avaritia:cosmic_meatballs-1"}}),
 [<avaritia:resource:2>,<minecraft:beef>,<minecraft:beef>,<minecraft:chicken>,<minecraft:chicken>,<minecraft:porkchop>,<minecraft:porkchop>,<minecraft:rabbit>,<minecraft:rabbit>]);
@@ -44,7 +45,7 @@ recipes.addShapeless(<avaritia:cosmic_meatballs>,
 <minecraft:spawn_egg>.withTag({display: {Name: "寰宇肉丸 - 材料2"}, EntityTag: {id: "avaritia:cosmic_meatballs-2"}})]);
 
 #无尽催化剂
-mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
+#mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 
 recipes.addShapeless(<minecraft:spawn_egg>.withTag({display: {Name: "无尽催化剂 - 材料1"}, EntityTag: {id: "avaritia:resource:5-1"}}),
 [<avaritia:resource>,<avaritia:resource:1>,<avaritia:resource:2>,<avaritia:resource:3>,<avaritia:resource:4>,<avaritia:ultimate_stew>,<avaritia:cosmic_meatballs>,<avaritia:endest_pearl> ,<avaritia:resource:7>]);
