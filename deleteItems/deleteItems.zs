@@ -4,9 +4,9 @@
 
 #recipes.remove();
 
-#recipes.remove(<ic2:te:89>);
-#recipes.remove();
-#recipes.remove();
+recipes.remove(<ic2:te:89>);
+recipes.remove(<appliedenergistics2:network_tool>);
+recipes.remove(<projectex:matter:7>);
 #recipes.remove();
 #recipes.remove();
 #recipes.remove();
