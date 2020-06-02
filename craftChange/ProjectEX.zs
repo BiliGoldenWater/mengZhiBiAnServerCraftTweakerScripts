@@ -7,7 +7,7 @@ recipes.remove(<projecte:item.pe_tome>);
 //     [,,],
 //     [,,]]);
 
-mods.avaritia.ExtremeCrafting.addShaped(<projecte:item.pe_tome>, [
+mods.avaritia.ExtremeCrafting.addShaped("projecte:item.pe_tome",<projecte:item.pe_tome>, [
     [<projectex:arcane_tablet>,<avaritia:singularity:10>,<cyclicmagic:glowing_chorus>,<tconstruct:seared:3>,<thermaldynamics:duct_32>,<tconstruct:tooltables:5>,<enderio:item_basic_capacitor>,<avaritia:singularity:11>,<projectex:arcane_tablet>],
     [<avaritia:resource:4>,<projectex:alchemy_table>,<botania:livingwood>,<integrateddynamics:menril_berries>,<mekanism:reinforcedalloy>,<integrateddynamics:cable>,<botania:livingrock>,<projectex:alchemy_table>,<avaritia:endest_pearl>],
     [<extrautils2:angelblock>,<botania:manaresource:5>,<projectex:stone_table>,<appliedenergistics2:controller>,<draconicevolution:crafting_injector>,<appliedenergistics2:drive>,<projectex:stone_table>,<botania:manaresource:4>,<extrautils2:compressedcobblestone:7>],
