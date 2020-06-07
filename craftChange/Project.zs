@@ -15,37 +15,49 @@ mods.avaritia.ExtremeCrafting.addShaped("projecte:item.pe_tome",<projecte:item.p
     [<avaritia:endest_pearl>,<projectex:alchemy_table>,<botania:livingrock>,<integrateddynamics:cable>,<mekanism:reinforcedalloy>,<integrateddynamics:menril_berries>,<botania:livingwood>,<projectex:alchemy_table>,<avaritia:resource:4>],
     [<projectex:arcane_tablet>,<avaritia:singularity:11>,<enderio:item_basic_capacitor>,<tconstruct:tooltables:5>,<thermaldynamics:duct_32>,<tconstruct:seared:3>,<cyclicmagic:glowing_chorus>,<avaritia:singularity:10>,<projectex:arcane_tablet>]]);
 
+//花盆mk11
 recipes.remove(<projectex:power_flower:10>);
+
 recipes.addShaped(<projectex:power_flower:10>, [
     [<projectex:compressed_collector:10>,<projectex:personal_link>,<projectex:compressed_collector:10>],
     [<projectex:relay:10>,<projectex:power_flower:9>,<projectex:relay:10>],
     [<projectex:power_flower:9>,,<projectex:power_flower:9>]]);
 
+//花盆mk12
 recipes.remove(<projectex:power_flower:11>);
+
 recipes.addShaped(<projectex:power_flower:11>, [
     [<projectex:compressed_collector:11>,<projectex:personal_link>,<projectex:compressed_collector:11>],
     [<projectex:relay:11>,<projectex:power_flower:10>,<projectex:relay:11>],
     [<projectex:power_flower:10>,,<projectex:power_flower:10>]]);
 
+//花盆mk13
 recipes.remove(<projectex:power_flower:12>);
+
 recipes.addShaped(<projectex:power_flower:12>, [
     [<projectex:compressed_collector:12>,<projectex:personal_link>,<projectex:compressed_collector:12>],
     [<projectex:relay:12>,<projectex:power_flower:11>,<projectex:relay:12>],
     [<projectex:power_flower:11>,,<projectex:power_flower:11>]]);
 
+//花盆mk14
 recipes.remove(<projectex:power_flower:13>);
+
 recipes.addShaped(<projectex:power_flower:13>, [
     [<projectex:compressed_collector:13>,<projectex:personal_link>,<projectex:compressed_collector:13>],
     [<projectex:relay:13>,<projectex:power_flower:12>,<projectex:relay:13>],
     [<projectex:power_flower:12>,,<projectex:power_flower:12>]]);
 
+//花盆mk15
 recipes.remove(<projectex:power_flower:14>);
+
 recipes.addShaped(<projectex:power_flower:14>, [
     [<projectex:compressed_collector:14>,<projectex:personal_link>,<projectex:compressed_collector:14>],
     [<projectex:relay:14>,<projectex:power_flower:13>,<projectex:relay:14>],
     [<projectex:power_flower:13>,,<projectex:power_flower:13>]]);
 
+//花盆终极
 recipes.remove(<projectex:power_flower:15>);
+
 recipes.addShaped(<projectex:power_flower:15>, [
     [<projectex:compressed_collector:15>,<projectex:personal_link>,<projectex:compressed_collector:15>],
     [<projectex:relay:15>,<projectex:power_flower:14>,<projectex:relay:15>],
