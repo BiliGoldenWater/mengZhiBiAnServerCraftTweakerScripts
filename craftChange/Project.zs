@@ -1,11 +1,8 @@
 //recipes.remove();
 //recipes.addShaped(output, input);
 
+//炼金术秘卷
 recipes.remove(<projecte:item.pe_tome>);
-// recipes.addShaped(<projecte:item.pe_tome>, [
-//     [,,],
-//     [,,],
-//     [,,]]);
 
 mods.avaritia.ExtremeCrafting.addShaped("projecte:item.pe_tome",<projecte:item.pe_tome>, [
     [<projectex:arcane_tablet>,<avaritia:singularity:10>,<cyclicmagic:glowing_chorus>,<tconstruct:seared:3>,<thermaldynamics:duct_32>,<tconstruct:tooltables:5>,<enderio:item_basic_capacitor>,<avaritia:singularity:11>,<projectex:arcane_tablet>],
@@ -18,7 +15,7 @@ mods.avaritia.ExtremeCrafting.addShaped("projecte:item.pe_tome",<projecte:item.p
     [<avaritia:endest_pearl>,<projectex:alchemy_table>,<botania:livingrock>,<integrateddynamics:cable>,<mekanism:reinforcedalloy>,<integrateddynamics:menril_berries>,<botania:livingwood>,<projectex:alchemy_table>,<avaritia:resource:4>],
     [<projectex:arcane_tablet>,<avaritia:singularity:11>,<enderio:item_basic_capacitor>,<tconstruct:tooltables:5>,<thermaldynamics:duct_32>,<tconstruct:seared:3>,<cyclicmagic:glowing_chorus>,<avaritia:singularity:10>,<projectex:arcane_tablet>]]);
 
-//recipes.remove();
+//recipes.remove(<projectex:power_flower:10>);
 //recipes.addShaped(, );
 
 //recipes.remove();
