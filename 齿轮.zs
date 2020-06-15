@@ -1,0 +1,1 @@
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);

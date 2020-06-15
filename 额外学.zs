@@ -1,0 +1,3 @@
+mods.botania.RuneAltar.removeRecipe(<extrabotany:material:1>);
+mods.botania.RuneAltar.addRecipe(<draconicevolution:dragon_heart>, [<draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>, <avaritia:block_resource:2>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>, <avaritia:block_resource:2>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>, <avaritia:block_resource:2>], 1000000);
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:1>, [<extrautils2:opinium:4>, <extrautils2:opinium:5>, <mekanism:controlcircuit:3>, <botania:manaresource:9>, <botania:rune:13>, <botania:manaresource:4>, <appliedenergistics2:material:48>], 1000000);
