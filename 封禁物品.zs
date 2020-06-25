@@ -113,6 +113,7 @@ recipes.remove(<projecte:item.pe_black_hole>);
 recipes.remove(<botania:blackholetalisman>);
 recipes.remove(<botania:exchangerod>);
 recipes.remove(<botania:tornadorod>);
+recipes.remove(<industrialforegoing:conveyor_upgrade:1>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
