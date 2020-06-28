@@ -33,6 +33,7 @@ recipes.remove(<immersiveengineering:metal_decoration0:4>);
 recipes.remove(<immersiveengineering:stone_decoration:1>);
 recipes.remove(<immersiveengineering:stone_decoration>);
 recipes.remove(<immersiveengineering:stone_decoration:2>);
+recipes.remove(<immersiveengineering:metal:30>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -48,6 +49,7 @@ recipes.remove(<immersiveengineering:stone_decoration:2>);
 recipes.addShapeless(<immersiveengineering:stone_decoration:2>, [<immersiveengineering:stone_decoration_slab:2>, <immersiveengineering:stone_decoration_slab:2>]);
 recipes.addShapeless(<immersiveengineering:stone_decoration>, [<immersiveengineering:stone_decoration_slab>, <immersiveengineering:stone_decoration_slab>]);
 recipes.addShapeless(<immersiveengineering:stone_decoration:1>, [<immersiveengineering:stone_decoration_slab:1>, <immersiveengineering:stone_decoration_slab:1>]);
+recipes.addShapeless(<immersiveengineering:metal:30>, [<ore:ingotCopper>, <immersiveengineering:tool>.anyDamage()]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
