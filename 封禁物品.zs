@@ -16,7 +16,6 @@ recipes.remove(<botania:lightrelay:1>);
 recipes.remove(<botania:lightrelay:2>);
 recipes.remove(<botania:lightrelay:3>);
 recipes.remove(<botania:spawnerclaw>);
-recipes.remove(<botania:sextant>);
 recipes.remove(<botania:lightrelay>);
 recipes.remove(<botania:opencrate:1>);
 recipes.remove(<enderio:block_exit_rail>);
