@@ -53,7 +53,7 @@ recipes.addShapeless(<minecraft:spawn_egg>.withTag({display: {Name: "无尽催�
 [<avaritia:singularity>,<avaritia:singularity:1>,<avaritia:singularity:2>,<avaritia:singularity:3>,<avaritia:singularity:4>,<avaritia:singularity:10>,<avaritia:singularity:11>,<avaritia:singularity:5>,<avaritia:singularity:6>]);
 
 recipes.addShapeless(<minecraft:spawn_egg>.withTag({display: {Name: "无尽催化剂 - 材料3"}, EntityTag: {id: "avaritia:resource:5-3"}}),
-[<avaritia:singularity:7>,<avaritia:singularity:8>,<avaritia:singularity:9>,<thermalfoundation:storage_alloy:7>,<mekanism:basicblock:5>,<enderio:block_alloy:6>]);
+[<avaritia:singularity:7>,<avaritia:singularity:8>,<avaritia:singularity:9>,<thermalfoundation:storage_alloy:7>,<ore:blockSteel>,<enderio:block_alloy:6>]);
 
 recipes.addShapeless(<avaritia:resource:5>,
 [<minecraft:spawn_egg>.withTag({display: {Name: "无尽催化剂 - 材料1"}, EntityTag: {id: "avaritia:resource:5-1"}}),
